@@ -1,12 +1,158 @@
+<!DOCTYPE html>
+
+
 <html>
   <head>
+    <style type ="text/css">
+      html {
+         width: 100%;
+      }
+      body{
+        background-color:antiquewhite;
+        overflow: show;
+      }
+
+      h1 {
+         text-align: center;
+         margin: 0;
+         padding: 0;
+         font-variant: small-caps;
+      }
+
+      .contactHeader{
+        font-variant: small-caps;
+        text-align: center;
+        font-size: 10;
+      }
+
+      .contactText{
+        text-align: center;
+        font-size: 5;
+      }
+
+      p {
+        text-align: center;
+      }
+
+      .section{
+        border-bottom: 2px solid #000;
+        margin: 5px;
+        padding-top: 3px;
+        padding-bottom: 3px;
+      }
+      
+      .box{
+        display:flex;
+        justify-content: space-between;
+        align-items: flex-start;
+        flex-direction: column;
+      }
+
+      .topbox{
+        position:sticky;
+        top: 10px;
+        left: 1-px;
+        background-color: white;
+        padding: 1px;
+        border: 1px solid black;
+        border-radius: 10px;
+      }
+      /* Dropdown container */
+      .dropdown {
+        position: absolute;
+        top: 20px;
+        left: 20px;
+      }
+
+      /* Button styling */
+      .dropButton {
+        background-color: #333;
+        color: white;
+        padding: 5px 10px;
+        font-size: 10px;
+        cursor: pointer;
+        border-radius: 5px;
+      }
+
+      
+      .dropdownContent {
+        display: none;
+        position: absolute;
+        background-color:aliceblue;
+        min-width: 100px;
+        padding: 10px;
+        border-radius: 10px;
+        border: 1px solid black;
+      }
+
+      .dropdown:hover .dropdownContent {
+        display:block;
+      }
+
+      .bottomNavigation {
+        position: fixed;
+        bottom: 0;
+        left: 0px;
+        width: 100%;
+        background-color: #333;
+        text-align: center;
+        height: 50px;
+      }
+
+      .bottomNavigation a {
+        color: white;
+        text-decoration: none;
+        margin: 20px;
+        font-weight: bold;
+        font-size: large;
+        font: small-caps;
+      }
+
+      .bottomNavigation a:hover {
+        text-decoration: underline;
+      }
+
+      
+
+    </style> 
     <title>
-      hello
+      Lancelot Workman
     </title>
   </head>
   <body>
-    <h1>Hello World!</h1>
-    <p>Lancelot Workman</p>
-    <img src="images/mrbao1.jpg" width=“200” height=“200” alt="Photo of me"/>
+    <!--<div class = "box">
+      <div class = "topbox">
+        <p class = "contactHeader">Contact Info:</p>
+        <div class = "contactText">
+          <p>Niskayuna, New York, 12309</p>
+          <p>518-986-9169</p>
+          <p>workml@rpi.edu</p>
+        </div>
+      </div>
+    </div>-->
+    <div class="dropdown">
+      <button class="dropButton">Contact Info</button>
+      <div class="dropdownContent">
+        <p>Niskayuna, New York, 12309</p>
+        <p>518-986-9169</p>
+        <p>workml@rpi.edu</p>
+      </div>
+    </div>
+
+    <h1>About Me:</h1>
+    <p>Hello!</p>
+    <p>My name is Lancelot Workman</p>
+    <p>I am currently a Freshman at Rensellaer Polytechnic Institute studying Computer Science</p>
+    <div class = "section"></div>
+    <h1>Links:</h1>
+    <p>My Resume</p>
+    
+    <nav class="bottomNavigation">
+      <a href="http://workmlrpi.eastus.cloudapp.azure.com/iit/">Home</a>
+      <a href="#">Resume</a>
+      <a href="https://github.com/WhatsRed">Github</a>
+      <a href="#">Labs</a>
+    </nav>
+
   </body>
 </html>
