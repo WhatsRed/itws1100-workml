@@ -1,162 +1,46 @@
 <!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Lancelot Workman</title>
+    <link rel="stylesheet" href="css/style.css">
+</head>
 
+<body>
 
-<html>
-  <head>
-    <style type ="text/css">
-      html {
-         width: 100%;
-      }
-      body{
-        background-color:antiquewhite;
-        overflow: show;
-        padding-bottom: 60px;
-      }
-
-      h1 {
-         text-align: center;
-         margin: 0;
-         padding: 0;
-         font-variant: small-caps;
-      }
-
-      .contactHeader{
-        font-variant: small-caps;
-        text-align: center;
-        font-size: 10;
-      }
-
-      .contactText{
-        text-align: center;
-        font-size: 5;
-      }
-
-      p {
-        text-align: center;
-      }
-
-      .section{
-        border-bottom: 2px solid #000;
-        margin: 5px;
-        padding-top: 3px;
-        padding-bottom: 3px;
-      }
-      
-      .box{
-        display:flex;
-        justify-content: space-between;
-        align-items: flex-start;
-        flex-direction: column;
-      }
-
-      .topbox{
-        position:sticky;
-        top: 10px;
-        left: 1-px;
-        background-color: white;
-        padding: 1px;
-        border: 1px solid black;
-        border-radius: 10px;
-      }
-     
-      .dropdown {
-        position: absolute;
-        top: 20px;
-        left: 20px;
-      }
-
-      
-      .dropButton {
-        background-color: #333;
-        color: white;
-        padding: 5px 10px;
-        font-size: 10px;
-        cursor: pointer;
-        border-radius: 5px;
-      }
-
-      
-      .dropdownContent {
-        display: none;
-        position: absolute;
-        background-color:aliceblue;
-        min-width: 100px;
-        padding: 10px;
-        border-radius: 10px;
-        border: 1px solid black;
-      }
-
-      .dropdown:hover .dropdownContent {
-        display:block;
-      }
-
-      .bottomNavigation {
-        position: fixed;
-        bottom: 0;
-        left: 0px;
-        width: 100%;
-        background-color: #333;
-        text-align: center;
-        height: 50px;
-      }
-
-      .bottomNavigation a {
-        color: white;
-        text-decoration: none;
-        margin: 20px;
-        font-weight: bold;
-        font-size: large;
-        font: small-caps;
-      }
-
-      .bottomNavigation a:hover {
-        text-decoration: underline;
-      }
-
-      
-
-    </style> 
-    <title>
-      Lancelot Workman
-    </title>
-  </head>
-  <body>
-    <!--<div class = "box">
-      <div class = "topbox">
-        <p class = "contactHeader">Contact Info:</p>
-        <div class = "contactText">
-          <p>Niskayuna, New York, 12309</p>
-          <p>518-986-9169</p>
-          <p>workml@rpi.edu</p>
+<nav class="navbar">
+    <div class="container">
+        <h1>Lancelot Workman</h1>
+        <div class="nav-links">
+            <a href="index.html">Home</a>
+            <a href="labs/lab.html">Labs</a>
+            <a href="labs/lab02/workml-lancelotworkman-resume.html">Resume</a>
+            <a href="https://github.com/WhatsRed">GitHub</a>
         </div>
-      </div>
-    </div>-->
-    <div class="dropdown">
-      <button class="dropButton">Contact Info</button>
-      <div class="dropdownContent">
-        <p>Niskayuna, New York, 12309</p>
-        <p>518-986-9169</p>
-        <p>workml@rpi.edu</p>
-      </div>
     </div>
+</nav>
 
-    <h1>About Me:</h1>
-    <p>Hello!</p>
-    <p>My name is Lancelot Workman</p>
-    <p>I am currently a Freshman at Rensellaer Polytechnic Institute studying Computer Science</p>
-    <p></p>
-    <div class = "section"></div>
-    <h1>Links:</h1>
-    <p>My <a href="http://workmlrpi.eastus.cloudapp.azure.com/iit/labs/lab02/workml-lancelotworkman-resume.html">Resume</a></p>
-    <p>My <a href="http://workmlrpi.eastus.cloudapp.azure.com/iit/labs/lab.html">Labs</a>
-    <p></p>
-    <p></p>
-    <nav class="bottomNavigation">
-      <a href="http://workmlrpi.eastus.cloudapp.azure.com/iit/">Home</a>
-      <a href="http://workmlrpi.eastus.cloudapp.azure.com/iit/labs/lab02/workml-lancelotworkman-resume.html">Resume</a>
-      <a href="https://github.com/WhatsRed">Github</a>
-      <a href="http://workmlrpi.eastus.cloudapp.azure.com/iit/labs/lab.html">Labs</a>
-    </nav>
+<section class="hero">
+    <div class="container">
+        <h2>Computer Science Student at RPI</h2>
+        <p>Freshman at Rensselaer Polytechnic Institute focused on software development and systems.</p>
+        <a class="btn" href="labs/lab.html">View My Labs</a>
+    </div>
+</section>
 
-  </body>
+<section class="container">
+    <div class="card">
+        <h3>About Me</h3>
+        <p>
+            I am currently studying Computer Science at RPI. This website showcases my coursework,
+            labs, and projects as I develop my skills in web development and programming.
+        </p>
+    </div>
+</section>
+
+<footer>
+    © 2026 Lancelot Workman
+</footer>
+
+</body>
 </html>

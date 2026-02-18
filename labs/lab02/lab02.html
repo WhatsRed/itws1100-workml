@@ -1,178 +1,47 @@
 <!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Lab 02 | Lancelot Workman</title>
+    <link rel="stylesheet" href="../../css/style.css">
+</head>
 
+<body>
 
-<html>
-  <head>
-    <style type ="text/css">
-      html {
-         width: 100%;
-      }
-      body{
-        background-color:antiquewhite;
-        overflow: show;
-        padding-bottom: 60px;
-      }
+<nav class="navbar">
+    <div class="container">
+        <h1>Lancelot Workman</h1>
+        <div class="nav-links">
+            <a href="../../index.html">Home</a>
+            <a href="../lab.html">Labs</a>
+            <a href="workml-lancelotworkman-resume.html">Resume</a>
+            <a href="https://github.com/WhatsRed">GitHub</a>
+        </div>
+    </div>
+</nav>
 
-      h1 {
-         text-align: center;
-         margin: 0;
-         padding: 0;
-         font-variant: small-caps;
-      }
+<section class="container">
+    <h2>Lab 02</h2>
 
-      .contactHeader{
-        font-variant: small-caps;
-        text-align: center;
-        font-size: 10;
-      }
+    <div class="card">
+        <h3>Overview</h3>
+        <p>
+            This lab focused on HTML and CSS fundamentals and building my resume page.
+        </p>
+        <a class="btn" href="workml-lancelotworkman-resume.html">View Resume</a>
+    </div>
 
-      .contactText{
-        text-align: center;
-        font-size: 5;
-      }
+    <div class="card">
+        <h3>Helpful Resources</h3>
+        <p><a href="https://css-tricks.com/snippets/css/a-guide-to-flexbox/">Flexbox Guide</a></p>
+        <p><a href="https://www.w3schools.com/">W3Schools</a></p>
+        <p><a href="https://www.w3schools.com/cssref/index.php">CSS Reference</a></p>
+    </div>
+</section>
 
-      p {
-        text-align: center;
-      }
+<footer>
+    © 2026 Lancelot Workman
+</footer>
 
-      .section{
-        border-bottom: 2px solid #000;
-        margin: 5px;
-        padding-top: 3px;
-        padding-bottom: 3px;
-      }
-      
-      .box{
-        display:flex;
-        justify-content: space-between;
-        align-items: center;
-        flex-direction: column;
-      }
-      .columnBox{
-        align-items: center;
-        border: 1px solid black;
-        background-color:rgb(204, 249, 255);
-        border-radius: 10px;
-        padding: 20px;
-        margin-top: 10px;
-
-      }
-
-      .topbox{
-        position:sticky;
-        top: 10px;
-        left: 10px;
-        background-color: white;
-        padding: 1px;
-        border: 1px solid black;
-      }
-  
-      .dropdown {
-        position: absolute;
-        top: 20px;
-        left: 20px;
-      }
-
-  
-      .dropButton {
-        background-color: #333;
-        color: white;
-        padding: 5px 10px;
-        font-size: 10px;
-        cursor: pointer;
-        border-radius: 5px;
-      }
-
-      
-      .dropdownContent {
-        display: none;
-        position: absolute;
-        background-color:aliceblue;
-        min-width: 100px;
-        padding: 10px;
-        border-radius: 10px;
-        border: 1px solid black;
-      }
-
-      .dropdown:hover .dropdownContent {
-        display:block;
-      }
-
-      .bottomNavigation {
-        position: fixed;
-        bottom: 0;
-        left: 0px;
-        width: 100%;
-        background-color: #333;
-        text-align: center;
-        height: 50px;
-      }
-
-      .bottomNavigation a {
-        color: white;
-        text-decoration: none;
-        margin: 20px;
-        font-weight: bold;
-        font-size: large;
-        font: small-caps;
-      }
-
-      .bottomNavigation a:hover {
-        text-decoration: underline;
-      }
-
-      h2{
-        font-size: 20px;
-        font-style: bold;
-        font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
-        text-align: center;
-        padding:0px;
-        margin-top:5px;
-      }
-      
-
-    </style> 
-    <title>
-      Lab02
-    </title>
-   </head>
-   <body>
-      <!--<div class = "box">
-         <div class = "topbox">
-         <p class = "contactHeader">Contact Info:</p>
-         <div class = "contactText">
-            <p>Niskayuna, New York, 12309</p>
-            <p>518-986-9169</p>
-            <p>workml@rpi.edu</p>
-         </div>
-         </div>
-      </div>-->
-      <div class="dropdown">
-         <button class="dropButton">Contact Info</button>
-         <div class="dropdownContent">
-         <p>Niskayuna, New York, 12309</p>
-         <p>518-986-9169</p>
-         <p>workml@rpi.edu</p>
-         </div>
-      </div>
-
-      <h1>Lab02:</h1>
-      <p>This lab was an introduction to HTML and CSS</p>
-      <p>For this lab, I had to create my <a href="http://workmlrpi.eastus.cloudapp.azure.com/iit/labs/lab02/workml-lancelotworkman-resume.html">Resume</a></p>
-      <p>Below will be some helpful sites I used</p>
-      <p></p>
-      <div class = "section"></div>
-      <h1>Recommended Sites</h1>
-      <p><a href="https://css-tricks.com/snippets/css/a-guide-to-flexbox/">Flexbox Basics</a></p>
-      <p><a href="https://www.w3schools.com/">W3Schools</a></p>
-      <p><a href="https://www.w3schools.com/cssref/index.php">CSS References</a></p>
-
-      <nav class="bottomNavigation">
-      <a href="http://workmlrpi.eastus.cloudapp.azure.com/iit/">Home</a>
-         <a href="http://workmlrpi.eastus.cloudapp.azure.com/iit/labs/lab02/workml-lancelotworkman-resume.html">Resume</a>
-         <a href="https://github.com/WhatsRed">Github</a>
-         <a href="http://workmlrpi.eastus.cloudapp.azure.com/iit/labs/lab.html">Labs</a>
-      </nav>
-
-   </body>
+</body>
 </html>

@@ -1,0 +1,21 @@
+iit/
+├── index.html
+├── README.md
+├── .htaccess
+├── css/
+│   └── style.css
+├── images/
+└── labs
+│   ├── index.html
+│   ├── lab01
+│   │   ├──labs01.html
+│   │ 	 └── pictures/pdfs
+│   ├── lab02
+│   │    ├──lab02.html
+│   │    ├──README.md 
+│   │    └── workml-lancelotworkman-resume.html
+│   ├── lab03
+│   │    ├──lab03.html
+│   │    ├──README.md 
+│   │    └──IA.txt
+└──└─── lab.html

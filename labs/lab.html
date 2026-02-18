@@ -1,160 +1,56 @@
 <!DOCTYPE html>
-
-
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Lancelot Workman</title>
+    <link rel="stylesheet" href="../css/style.css">
+</head>
 <html>
   <head>
     <style type ="text/css">
-      html {
-         width: 100%;
-      }
-      body{
-        background-color:antiquewhite;
-        overflow: show;
-        padding-bottom: 60px;
-      }
-
-      h1 {
-         text-align: center;
-         margin: 0;
-         padding: 0;
-         font-variant: small-caps;
-      }
-
-      .contactHeader{
-        font-variant: small-caps;
-        text-align: center;
-        font-size: 10;
-      }
-
-      .contactText{
-        text-align: center;
-        font-size: 5;
-      }
-
-      p {
-        text-align: center;
-      }
-
-      .section{
-        border-bottom: 2px solid #000;
-        margin: 5px;
-        padding-top: 3px;
-        padding-bottom: 3px;
-      }
-      
-      .box{
-        display:flex;
-        justify-content: space-between;
-        align-items: flex-start;
-        flex-direction: column;
-      }
-
-      .topbox{
-        position:sticky;
-        top: 10px;
-        left: 1-px;
-        background-color: white;
-        padding: 1px;
-        border: 1px solid black;
-        border-radius: 10px;
-      }
-  
-      .dropdown {
-        position: absolute;
-        top: 20px;
-        left: 20px;
-      }
-
-  
-      .dropButton {
-        background-color: #333;
-        color: white;
-        padding: 5px 10px;
-        font-size: 10px;
-        cursor: pointer;
-        border-radius: 5px;
-      }
-
-      
-      .dropdownContent {
-        display: none;
-        position: absolute;
-        background-color:aliceblue;
-        min-width: 100px;
-        padding: 10px;
-        border-radius: 10px;
-        border: 1px solid black;
-      }
-
-      .dropdown:hover .dropdownContent {
-        display:block;
-      }
-
-      .bottomNavigation {
-        position: fixed;
-        bottom: 0;
-        left: 0px;
-        width: 100%;
-        background-color: #333;
-        text-align: center;
-        height: 50px;
-      }
-
-      .bottomNavigation a {
-        color: white;
-        text-decoration: none;
-        margin: 20px;
-        font-weight: bold;
-        font-size: large;
-        font: small-caps;
-      }
-
-      .bottomNavigation a:hover {
-        text-decoration: underline;
-      }
-
-      
-
+     
     </style> 
     <title>
-      Labs
+      Labs | Lancelot Workman
     </title>
   </head>
   <body>
-    <!--<div class = "box">
-      <div class = "topbox">
-        <p class = "contactHeader">Contact Info:</p>
-        <div class = "contactText">
-          <p>Niskayuna, New York, 12309</p>
-          <p>518-986-9169</p>
-          <p>workml@rpi.edu</p>
-        </div>
+    <nav class="navbar">
+      <div class="container">
+        <h1>Lancelot Workman</h1>
+          <div class="nav-links">
+              <a href="index.html">Home</a>
+              <a href="labs/lab.html">Labs</a>
+              <a href="labs/lab02/workml-lancelotworkman-resume.html">Resume</a>
+              <a href="https://github.com/WhatsRed">GitHub</a>
+          </div>
       </div>
-    </div>-->
-    <div class="dropdown">
-      <button class="dropButton">Contact Info</button>
-      <div class="dropdownContent">
-        <p>Niskayuna, New York, 12309</p>
-        <p>518-986-9169</p>
-        <p>workml@rpi.edu</p>
-      </div>
-    </div>
-
-    <h1>My Labs:</h1>
-    <p>These are the links to my labs from ITWS1100</p>
-    <p>This site is still being updated with labs as I continue to do them</p>
-    <p></p>
-    <div class = "section"></div>
-    <h1>Links To Labs:</h1>
-    <p><a href="http://workmlrpi.eastus.cloudapp.azure.com/iit/labs/lab01/lab01.html">Lab01</a>: Creating my site (homepage updated)</p>
-    <p><a href="http://workmlrpi.eastus.cloudapp.azure.com/iit/labs/lab02/lab02.html">Lab02</a>: Creating my resume</p>
-    <p><a href="http://workmlrpi.eastus.cloudapp.azure.com/iit/labs/lab03/lab03.html">Lab03</a>: Creating the homepage & building my site</p>
-    <nav class="bottomNavigation">
-     <a href="http://workmlrpi.eastus.cloudapp.azure.com/iit/">Home</a>
-      <a href="http://workmlrpi.eastus.cloudapp.azure.com/iit/labs/lab02/workml-lancelotworkman-resume.html">Resume</a>
-      <a href="https://github.com/WhatsRed">Github</a>
-      <a href="http://workmlrpi.eastus.cloudapp.azure.com/iit/labs/lab.html">Labs</a>
     </nav>
 
+    <section class="container">
+    <h2>My Labs</h2>
+
+    <div class="card">
+        <h3>Lab 01</h3>
+        <p>Creating my website and learning Git & SSH.</p>
+        <a class="btn" href="lab01/lab01.html">View Lab</a>
+    </div>
+
+    <div class="card">
+        <h3>Lab 02</h3>
+        <p>Introduction to HTML and CSS. Built my resume page.</p>
+        <a class="btn" href="lab02/lab02.html">View Lab</a>
+    </div>
+
+    <div class="card">
+        <h3>Lab 03</h3>
+        <p>Built full site navigation and homepage structure.</p>
+        <a class="btn" href="lab03/lab03.html">View Lab</a>
+    </div>
+    
+  </section>
+  <footer>
+    © 2026 Lancelot Workman
+    </footer>
   </body>
 </html>

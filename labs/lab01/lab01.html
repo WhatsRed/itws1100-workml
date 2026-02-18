@@ -1,196 +1,63 @@
 <!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Lab 01 | Lancelot Workman</title>
+    <link rel="stylesheet" href="../../css/style.css">
+</head>
 
+<body>
 
-<html>
-  <head>
-    <style type ="text/css">
-      html {
-         width: 100%;
-      }
-      body{
-        background-color:antiquewhite;
-        overflow: show;
-        padding-bottom: 60px;
-      }
+<nav class="navbar">
+    <div class="container">
+        <h1>Lancelot Workman</h1>
+        <div class="nav-links">
+            <a href="../../index.html">Home</a>
+            <a href="../lab.html">Labs</a>
+            <a href="../lab02/workml-lancelotworkman-resume.html">Resume</a>
+            <a href="https://github.com/WhatsRed">GitHub</a>
+        </div>
+    </div>
+</nav>
 
-      h1 {
-         text-align: center;
-         margin: 0;
-         padding: 0;
-         font-variant: small-caps;
-      }
+<section class="container">
+    <h2>Lab 01</h2>
 
-      .contactHeader{
-        font-variant: small-caps;
-        text-align: center;
-        font-size: 10;
-      }
+    <div class="card">
+        <h3>Overview</h3>
+        <p>
+            This lab introduced creating and deploying a website using GitHub and SSH.
+        </p>
+    </div>
 
-      .contactText{
-        text-align: center;
-        font-size: 5;
-      }
+    <div class="card">
+        <h3>Using SSH</h3>
+        <p>
+            Securely connect to your server using:
+        </p>
+        <p><strong>ssh yourDomainName</strong></p>
+    </div>
 
-      p {
-        text-align: center;
-      }
+    <div class="card">
+        <h3>Using cd</h3>
+        <p>
+            Navigate directories using:
+        </p>
+        <p><strong>cd /var/www/html/iit/</strong></p>
+    </div>
 
-      .section{
-        border-bottom: 2px solid #000;
-        margin: 5px;
-        padding-top: 3px;
-        padding-bottom: 3px;
-      }
-      
-      .box{
-        display:flex;
-        justify-content: space-between;
-        align-items: center;
-        flex-direction: column;
-      }
-      .columnBox{
-        align-items: center;
-        border: 1px solid black;
-        background-color:rgb(204, 249, 255);
-        border-radius: 10px;
-        padding: 20px;
-        margin-top: 10px;
+    <div class="card">
+        <h3>Pulling from GitHub</h3>
+        <p>
+            Update your live site using:
+        </p>
+        <p><strong>sudo -u www-data git pull</strong></p>
+    </div>
+</section>
 
-      }
+<footer>
+    © 2026 Lancelot Workman
+</footer>
 
-      .topbox{
-        position:sticky;
-        top: 10px;
-        left: 10px;
-        background-color: white;
-        padding: 1px;
-        border: 1px solid black;
-      }
-  
-      .dropdown {
-        position: absolute;
-        top: 20px;
-        left: 20px;
-      }
-
-  
-      .dropButton {
-        background-color: #333;
-        color: white;
-        padding: 5px 10px;
-        font-size: 10px;
-        cursor: pointer;
-        border-radius: 5px;
-      }
-
-      
-      .dropdownContent {
-        display: none;
-        position: absolute;
-        background-color:aliceblue;
-        min-width: 100px;
-        padding: 10px;
-        border-radius: 10px;
-        border: 1px solid black;
-      }
-
-      .dropdown:hover .dropdownContent {
-        display:block;
-      }
-
-      .bottomNavigation {
-        position: fixed;
-        bottom: 0;
-        left: 0px;
-        width: 100%;
-        background-color: #333;
-        text-align: center;
-        height: 50px;
-      }
-
-      .bottomNavigation a {
-        color: white;
-        text-decoration: none;
-        margin: 20px;
-        font-weight: bold;
-        font-size: large;
-        font: small-caps;
-      }
-
-      .bottomNavigation a:hover {
-        text-decoration: underline;
-      }
-
-      h2{
-        font-size: 20px;
-        font-style: bold;
-        font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
-        text-align: center;
-        padding:0px;
-        margin-top:5px;
-      }
-      
-
-    </style> 
-    <title>
-      Lab01
-    </title>
-   </head>
-   <body>
-      <!--<div class = "box">
-         <div class = "topbox">
-         <p class = "contactHeader">Contact Info:</p>
-         <div class = "contactText">
-            <p>Niskayuna, New York, 12309</p>
-            <p>518-986-9169</p>
-            <p>workml@rpi.edu</p>
-         </div>
-         </div>
-      </div>-->
-      <div class="dropdown">
-         <button class="dropButton">Contact Info</button>
-         <div class="dropdownContent">
-         <p>Niskayuna, New York, 12309</p>
-         <p>518-986-9169</p>
-         <p>workml@rpi.edu</p>
-         </div>
-      </div>
-
-      <h1>Lab01:</h1>
-      <p>This lab was a tutorial on how to create my own site and use github</p>
-      <p>Below will be some useful information/notes on this topic</p>
-      <p></p>
-      <div class = "section"></div>
-      <h1>Information/Notes</h1>
-      <div class="box">
-         <div class="columnBox">
-               <h2>How to use "ssh" (Secure Shell)</h2>
-               <p>Using your command prompt, you must ssh into your website using the command: </p>
-               <p>ssh [yourDomainName]</p>
-         </div>
-         <div class="columnBox">
-               <h2>How to use "cd"</h2>
-               <p>You can use "cd" to navigate to folders within your file explorer and change them</p>
-               <p>The command looks something like: cd /var/www/html/iit/</p>
-               <p>With the text after "cd" being the pathway to your file/folder</p>
-         </div>
-         <div class = "columnBox">
-               <h2>How to pull from GitHub</h2>
-               <p>After committing your items to your repo, you need to pull your code to your website in order for your website to change</p>
-               <p>You can use the command "sudo" (Super User Do) in order to bypass authorization</p>
-               <p>Follow this with "-u www-data", which runs the command as the  user www-data, which is the default web server on many linux systems</p>
-               <p>Finally followed by "git pull", which pulls from your github after you have committed</p>
-               <p>The entire command should look something like this:</p>
-               <p>sudo -u www-data git pull</p>
-               <p>Note: You must be cd'd into your file directory for this to work</p>
-         </div>
-      </div>
-      <nav class="bottomNavigation">
-      <a href="http://workmlrpi.eastus.cloudapp.azure.com/iit/">Home</a>
-         <a href="http://workmlrpi.eastus.cloudapp.azure.com/iit/labs/lab02/workml-lancelotworkman-resume.html">Resume</a>
-         <a href="https://github.com/WhatsRed">Github</a>
-         <a href="http://workmlrpi.eastus.cloudapp.azure.com/iit/labs/lab.html">Labs</a>
-      </nav>
-
-   </body>
+</body>
 </html>
