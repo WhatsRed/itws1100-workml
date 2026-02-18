@@ -45,27 +45,35 @@
       .box{
         display:flex;
         justify-content: space-between;
-        align-items: flex-start;
+        align-items: center;
         flex-direction: column;
+      }
+      .columnBox{
+        align-items: center;
+        border: 1px solid black;
+        background-color:rgb(204, 249, 255);
+        border-radius: 10px;
+        padding: 20px;
+        margin-top: 10px;
+
       }
 
       .topbox{
         position:sticky;
         top: 10px;
-        left: 1-px;
+        left: 10px;
         background-color: white;
         padding: 1px;
         border: 1px solid black;
-        border-radius: 10px;
       }
-     
+  
       .dropdown {
         position: absolute;
         top: 20px;
         left: 20px;
       }
 
-      
+  
       .dropButton {
         background-color: #333;
         color: white;
@@ -113,48 +121,58 @@
         text-decoration: underline;
       }
 
+      h2{
+        font-size: 20px;
+        font-style: bold;
+        font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+        text-align: center;
+        padding:0px;
+        margin-top:5px;
+      }
       
 
     </style> 
     <title>
-      Lancelot Workman
+      Lab02
     </title>
-  </head>
-  <body>
-    <!--<div class = "box">
-      <div class = "topbox">
-        <p class = "contactHeader">Contact Info:</p>
-        <div class = "contactText">
-          <p>Niskayuna, New York, 12309</p>
-          <p>518-986-9169</p>
-          <p>workml@rpi.edu</p>
-        </div>
+   </head>
+   <body>
+      <!--<div class = "box">
+         <div class = "topbox">
+         <p class = "contactHeader">Contact Info:</p>
+         <div class = "contactText">
+            <p>Niskayuna, New York, 12309</p>
+            <p>518-986-9169</p>
+            <p>workml@rpi.edu</p>
+         </div>
+         </div>
+      </div>-->
+      <div class="dropdown">
+         <button class="dropButton">Contact Info</button>
+         <div class="dropdownContent">
+         <p>Niskayuna, New York, 12309</p>
+         <p>518-986-9169</p>
+         <p>workml@rpi.edu</p>
+         </div>
       </div>
-    </div>-->
-    <div class="dropdown">
-      <button class="dropButton">Contact Info</button>
-      <div class="dropdownContent">
-        <p>Niskayuna, New York, 12309</p>
-        <p>518-986-9169</p>
-        <p>workml@rpi.edu</p>
-      </div>
-    </div>
 
-    <h1>About Me:</h1>
-    <p>Hello!</p>
-    <p>My name is Lancelot Workman</p>
-    <p>I am currently a Freshman at Rensellaer Polytechnic Institute studying Computer Science</p>
-    <p></p>
-    <div class = "section"></div>
-    <h1>Links:</h1>
-    <p>My <a href="http://workmlrpi.eastus.cloudapp.azure.com/iit/labs/lab02/workml-lancelotworkman-resume.html">Resume</a></p>
-    <p></p>
-    <nav class="bottomNavigation">
+      <h1>Lab02:</h1>
+      <p>This lab was an introduction to HTML and CSS</p>
+      <p>For this lab, I had to create my <a href="http://workmlrpi.eastus.cloudapp.azure.com/iit/labs/lab02/workml-lancelotworkman-resume.html">Resume</a></p>
+      <p>Below will be some helpful sites I used</p>
+      <p></p>
+      <div class = "section"></div>
+      <h1>Recommended Sites</h1>
+      <p><a href="https://css-tricks.com/snippets/css/a-guide-to-flexbox/">Flexbox Basics</a></p>
+      <p><a href="https://www.w3schools.com/">W3Schools</a></p>
+      <p><a href="https://www.w3schools.com/cssref/index.php">CSS References</a></p>
+
+      <nav class="bottomNavigation">
       <a href="http://workmlrpi.eastus.cloudapp.azure.com/iit/">Home</a>
-      <a href="http://workmlrpi.eastus.cloudapp.azure.com/iit/labs/lab02/workml-lancelotworkman-resume.html">Resume</a>
-      <a href="https://github.com/WhatsRed">Github</a>
-      <a href="http://workmlrpi.eastus.cloudapp.azure.com/iit/labs/lab.html">Labs</a>
-    </nav>
+         <a href="http://workmlrpi.eastus.cloudapp.azure.com/iit/labs/lab02/workml-lancelotworkman-resume.html">Resume</a>
+         <a href="https://github.com/WhatsRed">Github</a>
+         <a href="http://workmlrpi.eastus.cloudapp.azure.com/iit/labs/lab.html">Labs</a>
+      </nav>
 
-  </body>
+   </body>
 </html>
