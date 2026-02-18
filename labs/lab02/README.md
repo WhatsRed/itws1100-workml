@@ -1,5 +1,12 @@
 <!-- # itws1100-lab02 -->
 Resume link: http://workmlrpi.eastus.cloudapp.azure.com/iit/labs/lab02/workml-lancelotworkman-resume.html
+
+Comments/Thoughts: Originally, I built the top boxes not using flexbox, but look around on the internet, I realized that flexboxes were far better than using regular boxes. It took a bit to understand how to use flexboxes, but once I finally started to understand how they worked, it was much easier to use and control them. It also took a but to understand how css worked, but also after understanding, everything felt a lot better and easier to do.
+
+
+
+
+
 # ITWS1100 - Lab 2
 
 In this lab you are going to build a resume.  The main instructions are in [ITWS1100-Lab2-HTML-Instructions.html](ITWS1100-Lab2-HTML-Instructions.html).
