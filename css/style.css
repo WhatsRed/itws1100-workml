@@ -159,11 +159,14 @@ footer {
     opacity: 0;
 }
 
-.welcome-title {
-    font-size: 60px;
-    font-weight: 700;
+.welcome-tagline {
+    font-size: 22px;
+    font-weight: 500;
+    text-transform: uppercase;
     letter-spacing: 3px;
+    opacity: 0.85;
 }
+
 
 .welcome-name {
     font-size: 32px;
@@ -172,10 +175,12 @@ footer {
 }
 
 .welcome-subtitle {
-    margin-top: 15px;
-    font-size: 18px;
-    opacity: 0.9;
+    margin-top: 12px;
+    font-size: 16px;
+    letter-spacing: 1px;
+    opacity: 0.8;
 }
+
 
 /* Scroll Arrow */
 .scroll-indicator {
