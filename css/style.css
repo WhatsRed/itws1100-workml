@@ -142,6 +142,11 @@ footer {
 /* Welcome Animation Section */
 /* ========================= */
 
+html {
+    scroll-behavior: smooth;
+}
+
+
 .welcome {
     height: 100vh;
     background: linear-gradient(-45deg, #111827, #1e3a8a, #2563eb, #0f172a);

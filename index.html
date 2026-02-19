@@ -7,24 +7,33 @@
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css">
 </head>
 <script>
-    window.addEventListener("load", function() {
-        const navbar = document.querySelector(".navbar");
-        const welcome = document.querySelector(".welcome");
+window.addEventListener("load", function() {
+    const navbar = document.querySelector(".navbar");
+    const welcome = document.querySelector(".welcome");
+    const heroSection = document.querySelector(".hero");
 
-        navbar.style.opacity = "0";
+    navbar.style.opacity = "0";
 
-        // Fade out welcome after 2.5 seconds
-        setTimeout(() => {
-            welcome.classList.add("fade-out");
-        }, 2500);
+    // Fade out welcome
+    setTimeout(() => {
+        welcome.classList.add("fade-out");
+    }, 2500);
 
-        // Show navbar after welcome fades out
-        setTimeout(() => {
-            navbar.style.transition = "opacity 1.2s ease";
-            navbar.style.opacity = "1";
-        }, 3800);
-    });
+    // Fade in navbar
+    setTimeout(() => {
+        navbar.style.transition = "opacity 1.2s ease";
+        navbar.style.opacity = "1";
+    }, 3800);
+
+    // Auto scroll when navbar fully appears
+    setTimeout(() => {
+        heroSection.scrollIntoView({
+            behavior: "smooth"
+        });
+    }, 5000);
+});
 </script>
+
 
 
 <body class="home">
