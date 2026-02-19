@@ -351,3 +351,28 @@ html {
     transform: scale(1.2);
 }
 
+/* RPI Link Styling */
+.rpi-link {
+    color: #aed4ff;
+    text-decoration: none;
+    font-weight: 500;
+    border-bottom: 1px solid transparent;
+    transition: all 0.3s ease;
+}
+
+.rpi-link:hover {
+    color: #7eadff;
+    border-bottom: 1px solid #ffffff;
+}
+.rpi-link2 {
+    color: #4d4d4d;
+    text-decoration: none;
+    font-weight: 500;
+    border-bottom: 1px solid transparent;
+    transition: all 0.3s ease;
+}
+
+.rpi-link2:hover {
+    color: #5272ff;
+    border-bottom: 1px solid #ffffff;
+}
