@@ -20,10 +20,17 @@ body {
     padding: 40px 0;
 }
 
-/* Navigation */
+/* ========================= */
+/* Enhanced Navigation Bar   */
+/* ========================= */
+
 .navbar {
-    background: #111827;
-    padding: 15px 0;
+    background: rgba(17, 24, 39, 0.95);
+    backdrop-filter: blur(8px);
+    padding: 18px 0;
+    box-shadow: 0 4px 20px rgba(0, 0, 0, 0.2);
+    position: relative;
+    z-index: 100;
 }
 
 .navbar .container {
@@ -34,19 +41,49 @@ body {
 
 .navbar h1 {
     color: white;
-    font-size: 20px;
+    font-size: 22px;
+    font-weight: 600;
+    letter-spacing: 1px;
 }
 
+/* Nav Links Container */
+.nav-links {
+    display: flex;
+    gap: 25px;
+}
+
+/* Individual Links */
 .nav-links a {
-    color: white;
+    position: relative;
+    color: #e5e7eb;
     text-decoration: none;
-    margin-left: 20px;
     font-weight: 500;
+    font-size: 15px;
+    padding: 6px 0;
+    transition: all 0.3s ease;
 }
 
+/* Hover Effect */
 .nav-links a:hover {
     color: #3b82f6;
 }
+
+/* Animated Underline */
+.nav-links a::after {
+    content: "";
+    position: absolute;
+    left: 0;
+    bottom: -4px;
+    width: 0%;
+    height: 2px;
+    background: #3b82f6;
+    transition: width 0.3s ease;
+}
+
+.nav-links a:hover::after {
+    width: 100%;
+}
+
 
 /* Hero Section */
 .hero {
