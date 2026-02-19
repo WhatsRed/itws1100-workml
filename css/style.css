@@ -256,3 +256,54 @@ footer {
 .home .hero {
     margin-top: 0;
 }
+/* ========================= */
+/* Footer Site Map Section   */
+/* ========================= */
+
+.site-map {
+    background: #0f172a;
+    color: #e5e7eb;
+    padding: 60px 0;
+    margin-top: 0;
+}
+
+.site-map h3 {
+    text-align: center;
+    margin-bottom: 40px;
+    font-size: 22px;
+    font-weight: 600;
+    letter-spacing: 1px;
+}
+
+.site-map-grid {
+    display: flex;
+    justify-content: center;
+    gap: 80px;
+    flex-wrap: wrap;
+}
+
+.site-map-grid div {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+}
+
+.site-map-grid h4 {
+    color: #3b82f6;
+    margin-bottom: 10px;
+    font-size: 16px;
+    font-weight: 600;
+}
+
+.site-map-grid a {
+    color: #cbd5e1;
+    text-decoration: none;
+    font-size: 14px;
+    transition: all 0.3s ease;
+}
+
+.site-map-grid a:hover {
+    color: #3b82f6;
+    transform: translateX(4px);
+}
+
