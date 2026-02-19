@@ -12,6 +12,9 @@ window.addEventListener("load", function() {
     const welcome = document.querySelector(".welcome");
     const heroSection = document.querySelector(".hero");
 
+    // 🔒 Disable scrolling immediately
+    document.body.style.overflow = "hidden";
+
     navbar.style.opacity = "0";
 
     // Fade out welcome
@@ -25,14 +28,16 @@ window.addEventListener("load", function() {
         navbar.style.opacity = "1";
     }, 3800);
 
-    // Auto scroll when navbar fully appears
+    // Re-enable scrolling + auto scroll
     setTimeout(() => {
+        document.body.style.overflow = "auto";  // 🔓 Re-enable scroll
         heroSection.scrollIntoView({
             behavior: "smooth"
         });
     }, 5000);
 });
 </script>
+
 
 
 
