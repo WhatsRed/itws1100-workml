@@ -306,4 +306,20 @@ footer {
     color: #3b82f6;
     transform: translateX(4px);
 }
+/* ========================= */
+/* Icon Styling Enhancements */
+/* ========================= */
+
+.nav-links a i,
+.site-map-grid a i {
+    margin-right: 8px;
+    font-size: 14px;
+    transition: transform 0.3s ease;
+}
+
+/* Subtle icon animation on hover */
+.nav-links a:hover i,
+.site-map-grid a:hover i {
+    transform: scale(1.2);
+}
 
