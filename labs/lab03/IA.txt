@@ -5,8 +5,9 @@ iit/
 ├── css/
 │   └── style.css
 ├── images/
+├── personal/
+│   └── about.html
 └── labs
-│   ├── index.html
 │   ├── lab01
 │   │   ├──labs01.html
 │   │ 	 └── pictures/pdfs
