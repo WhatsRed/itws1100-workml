@@ -432,3 +432,34 @@ html {
 .hero-card p {
     margin-bottom: 15px;
 }
+
+/* ========================= */
+/* RPI Background Section */
+/* ========================= */
+
+.rpi-background{
+    width:100%;
+    height:420px;
+
+    background-image:
+        linear-gradient(to bottom, rgba(255,255,255,0) 60%, #ffffff 100%),
+        url("../images/RPI.jpg");
+
+    background-size:cover;
+    background-position:center;
+    background-repeat:no-repeat;
+
+    margin-bottom:-120px;
+}
+
+/* ========================= */
+/* RPI Logo */
+/* ========================= */
+
+.rpi-logo{
+    width:140px;
+    margin-top:20px;
+    display:block;
+    margin-left:auto;
+    margin-right:auto;
+}
