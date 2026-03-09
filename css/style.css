@@ -395,3 +395,19 @@ html {
     margin-top: 20px;
 }
 
+/* Site overview grid inside homepage card */
+.site-overview-grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(220px, 1fr));
+    gap: 20px;
+    margin-top: 20px;
+}
+
+.site-overview-grid .card {
+    margin: 0;
+    box-shadow: 0 3px 12px rgba(0,0,0,0.06);
+}
+
+.site-overview-grid h4 {
+    margin-bottom: 10px;
+}
