@@ -384,3 +384,14 @@ html {
     flex-wrap: wrap;
 }
 
+.music-links {
+    margin-top: 15px;
+    display: flex;
+    gap: 15px;
+    flex-wrap: wrap;
+}
+
+.music-player {
+    margin-top: 20px;
+}
+
