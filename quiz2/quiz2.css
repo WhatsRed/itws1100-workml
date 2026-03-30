@@ -1,0 +1,20 @@
+/* Quiz 2 CSS File */
+
+body {
+  width: 1000px;
+}
+
+#bodyBlock {
+  width: 700px;
+  margin: auto;
+}
+
+h1, h4 {
+  text-align: center;
+}
+
+.makeItPurple {
+  color: purple;
+  font-style: italic;
+  font-variant: small-caps;
+}
