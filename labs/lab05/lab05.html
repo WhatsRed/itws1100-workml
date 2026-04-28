@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+   <title>Lab 5</title>
+   <meta charset="UTF-8" />
+   <link href="lab05.css" rel="stylesheet" type="text/css" />
+   <script type="text/javascript" src="lab05.js"></script>
+</head>
+
+<body onload="document.getElementById('firstName').focus();">
+
+   <div id="bodyBlock">
+      <h1>Intro to ITWS - Lab 5</h1>
+      <p style="text-align:center;">Lancelot Workman</p>
+
+      <form id="addForm" name="addForm" action="#" method="post" onsubmit="return validate(this);">
+         <fieldset>
+            <legend>Contact Information</legend>
+
+            <label class="field" for="firstName">First Name:</label>
+            <div class="value">
+               <input type="text" name="firstName" id="firstName" />
+            </div>
+
+            <label class="field" for="lastName">Last Name:</label>
+            <div class="value">
+               <input type="text" name="lastName" id="lastName" />
+            </div>
+
+            <label class="field" for="title">Title:</label>
+            <div class="value">
+               <input type="text" name="title" id="title" />
+            </div>
+
+            <label class="field" for="org">Organization:</label>
+            <div class="value">
+               <input type="text" name="org" id="org" />
+            </div>
+
+            <label class="field" for="pseudonym">Nickname:</label>
+            <div class="value">
+               <input type="text" name="pseudonym" id="pseudonym" />
+            </div>
+
+            <label class="field" for="comments">Comments:</label>
+            <div class="value">
+               <textarea id="comments" name="comments"
+                  onclick="clearComments()"
+                  onblur="restoreComments()">Please enter your comments</textarea>
+            </div>
+
+            <input type="submit" value="Save" id="save" />
+
+         </fieldset>
+      </form>
+
+      <!--nickname button-->
+      <div style="text-align:center; margin-top:20px;">
+         <button onclick="showNickname()">Show Nickname</button>
+      </div>
+
+   </div>
+
+</body>
+</html>
