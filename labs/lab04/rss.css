@@ -1,0 +1,47 @@
+rss {
+  display: block;
+  font-family: Arial, sans-serif;
+  background-color: #f5f5f5;
+  padding: 20px;
+}
+
+channel {
+  display: block;
+}
+
+title {
+  display: block;
+  font-size: 24px;
+  font-weight: bold;
+  color: darkblue;
+  margin-bottom: 10px;
+}
+
+item {
+  display: block;
+  margin-bottom: 15px;
+  padding: 10px;
+  border: 1px solid #ccc;
+  background-color: white;
+}
+
+item title {
+  font-size: 18px;
+  color: black;
+}
+
+link {
+  display: block;
+  color: blue;
+}
+
+description {
+  display: block;
+  margin-top: 5px;
+}
+
+pubDate {
+  display: block;
+  font-size: 12px;
+  color: gray;
+}
