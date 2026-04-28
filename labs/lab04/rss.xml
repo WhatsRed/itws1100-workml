@@ -1,0 +1,60 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-stylesheet type="text/css" href="rss.css"?>
+
+<rss version="2.0">
+  <channel>
+    <title>Labs</title>
+    <link>http://workmlrpi.eastus.cloudapp.azure.com/iit/labs/lab.html</link>
+    <description>Every lab is located here</description>
+
+    <item>
+      <title>Lab 1</title>
+      <link>http://workmlrpi.eastus.cloudapp.azure.com/iit/labs/lab01/lab01.html</link>
+      <description>Introduction to ITWS and setting up Azure</description>
+      <pubDate>Thu, 22 Jan 2026 12:00:00 EST</pubDate>
+    </item>
+
+    <item>
+      <title>Lab 2</title>
+      <link>http://workmlrpi.eastus.cloudapp.azure.com/iit/labs/lab02/lab02.html</link>
+      <description>Creating my resume</description>
+      <pubDate>Thu, 29 Jan 2026 12:00:00 EST</pubDate>
+    </item>
+
+    <item>
+      <title>Lab 3</title>
+      <link>http://workmlrpi.eastus.cloudapp.azure.com/iit/labs/lab03/lab03.html</link>
+      <description>Description of Lab 3</description>
+      <pubDate>Thu, 05 Feb 2026 12:00:00 EST</pubDate>
+    </item>
+
+    <item>
+      <title>Lab 4</title>
+      <link>http://workmlrpi.eastus.cloudapp.azure.com/iit/labs/lab04/lab04.html</link>
+      <description>XML RSS Feed Lab</description>
+      <pubDate>Thu, 26 Feb 2026 12:00:00 EST</pubDate>
+    </item>
+
+    <item>
+      <title>Lab 5</title>
+      <link>http://workmlrpi.eastus.cloudapp.azure.com/iit/labs/lab05/lab05.html</link>
+      <description>XML RSS Feed Lab</description>
+      <pubDate>Mon, 16 Mar 2026 12:00:00 EST</pubDate>
+    </item>
+
+
+    <item>
+      <title>Lab 6</title>
+      <link>http://workmlrpi.eastus.cloudapp.azure.com/iit/labs/lab06/lab06.html</link>
+      <description>XML RSS Feed Lab</description>
+      <pubDate>Mon, 23 Mar 2026 12:00:00 EST</pubDate>
+    </item>
+
+    <item>
+      <title>Lab 8</title>
+      <link>http://workmlrpi.eastus.cloudapp.azure.com/iit/labs/lab08/lab08.html</link>
+      <description>XML RSS Feed Lab</description>
+      <pubDate>Mon, 13 Apr 2026 12:00:00 EST</pubDate>
+    </item>
+  </channel>
+</rss>

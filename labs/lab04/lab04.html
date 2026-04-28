@@ -1,0 +1,132 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <style type ="text/css">
+      html {
+         width: 100%;
+      }
+      body{
+        background-color: antiquewhite;
+        padding-bottom: 60px;
+      }
+
+      h1 {
+         text-align: center;
+         margin: 0;
+         padding: 0;
+         font-variant: small-caps;
+      }
+
+      p {
+        text-align: center;
+      }
+
+      .section{
+        border-bottom: 2px solid #000;
+        margin: 5px;
+        padding-top: 3px;
+        padding-bottom: 3px;
+      }
+
+      .dropdown {
+        position: absolute;
+        top: 20px;
+        left: 20px;
+      }
+
+      .dropButton {
+        background-color: #333;
+        color: white;
+        padding: 5px 10px;
+        font-size: 10px;
+        cursor: pointer;
+        border-radius: 5px;
+      }
+
+      .dropdownContent {
+        display: none;
+        position: absolute;
+        background-color: aliceblue;
+        min-width: 100px;
+        padding: 10px;
+        border-radius: 10px;
+        border: 1px solid black;
+      }
+
+      .dropdown:hover .dropdownContent {
+        display:block;
+      }
+
+      .bottomNavigation {
+        position: fixed;
+        bottom: 0;
+        left: 0px;
+        width: 100%;
+        background-color: #333;
+        text-align: center;
+        height: 50px;
+      }
+
+      .bottomNavigation a {
+        color: white;
+        text-decoration: none;
+        margin: 20px;
+        font-weight: bold;
+        font-size: large;
+        font: small-caps;
+      }
+
+      .bottomNavigation a:hover {
+        text-decoration: underline;
+      }
+
+    </style> 
+
+    <title>Lab 4</title>
+  </head>
+
+  <body>
+
+    
+    <div class="dropdown">
+      <button class="dropButton">Contact Info</button>
+      <div class="dropdownContent">
+        <p>Niskayuna, New York, 12309</p>
+        <p>518-986-9169</p>
+        <p>workml@rpi.edu</p>
+      </div>
+    </div>
+
+   
+    <h1>Lab 4: XML RSS Feed</h1>
+
+    <p>This lab focuses on creating an RSS feed using XML.</p>
+    <p>The feed allows users to view updates from my labs in a standardized format.</p>
+
+    <div class="section"></div>
+
+    <h1>What I Did</h1>
+
+    <p>Created a valid RSS feed</p>
+    <p>Added multiple lab entries</p>
+    <p>Linked each of them the corresponding lab</p>
+    <p>Styled the XML file using external CSS</p>
+    <p>Validated the feed using validator.w3.org</p>
+
+    <div class="section"></div>
+
+    <h1>Links</h1>
+
+    <p><a href="rss.xml">View my RSS Feed</a></p>
+    <p><a href="../../index.html">Homepage</a></p>
+
+   
+    <nav class="bottomNavigation">
+      <a href="http://workmlrpi.eastus.cloudapp.azure.com/iit/">Home</a>
+      <a href="http://workmlrpi.eastus.cloudapp.azure.com/iit/labs/lab02/workml-lancelotworkman-resume.html">Resume</a>
+      <a href="https://github.com/WhatsRed">Github</a>
+      <a href="http://workmlrpi.eastus.cloudapp.azure.com/iit/labs/lab.html">Labs</a>
+    </nav>
+
+  </body>
+</html>
