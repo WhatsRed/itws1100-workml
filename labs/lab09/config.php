@@ -1,6 +1,6 @@
 <?php
 $host = "localhost";
-$user = "phpmyadmin";
+$user = "workml";
 $password = "Quite75Money"; 
 $dbname = "iit";
 
