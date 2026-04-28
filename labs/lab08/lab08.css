@@ -1,0 +1,20 @@
+body {
+  font-family: Arial;
+  background-color: antiquewhite;
+}
+
+#projectsContainer {
+  width: 600px;
+  margin: 0 auto;
+}
+
+.projectCard:hover {
+  transform: scale(1.05);
+}
+.ui-accordion .ui-accordion-header {
+  font-size: 18px;
+}
+
+.ui-accordion .ui-accordion-content {
+  padding: 10px;
+}

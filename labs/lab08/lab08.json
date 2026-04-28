@@ -1,0 +1,34 @@
+{
+  "projects": [
+    {
+      "title": "Lab 1: Intro Website",
+      "description": "Intro Website",
+      "link": "../../labs/lab01/lab01.html"
+    },
+    {
+      "title": "Lab 2: Resume",
+      "description": "Resume",
+      "link": "../lab02/lab02.html"
+    },
+    {
+      "title": "Lab 3: Website",
+      "description": "Website",
+      "link": "../lab03/lab03.html"
+    },
+    {
+      "title": "Lab 4: RSS Feed",
+      "description": "RSS Feed",
+      "link": "../lab04/lab04.html"
+    },
+    {
+      "title": "Lab 5: JavaScript Form",
+      "description": "JavaScript Form",
+      "link": "../lab05/lab05.html"
+    },
+    {
+      "title": "Lab 6: jQuery",
+      "description": "jQuery",
+      "link": "../lab06/lab06.html"
+    }
+  ]
+}
